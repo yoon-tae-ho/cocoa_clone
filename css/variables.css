@@ -1,0 +1,10 @@
+:root {
+  --yellow-color: #fae100;
+  --black-color: #2e363e;
+  --nav-background-color: #f9f9fa;
+  --chat-background-color: #abc1d1;
+
+  --horizontal-space: 25px;
+  --status-height: 27px;
+  --nav-height: 67px;
+}
