@@ -1,0 +1,50 @@
+.screen-header {
+  margin-top: var(--status-height);
+  padding: var(--horizontal-space);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__icons span {
+  position: relative;
+  display: block;
+  margin-left: 25px;
+}
+
+.screen-header__notification {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+
+  background-color: tomato;
+}
+
+.screen-header__add-chat-icon {
+  position: relative;
+}
+
+.screen-header__add-chat-icon i:last-child {
+  position: absolute;
+
+  top: 0px;
+  right: -3px;
+
+  border-radius: 50%;
+  background-color: white;
+}

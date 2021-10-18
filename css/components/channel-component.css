@@ -1,0 +1,24 @@
+.channel-component {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.channel-component__column {
+  opacity: 0.5;
+}
+
+.channel-component__column:last-child {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.channel-component__title {
+  font-size: 15px;
+}
