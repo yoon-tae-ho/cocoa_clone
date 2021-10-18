@@ -1,0 +1,111 @@
+.find-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.find-screen__methods {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 15px 0;
+}
+
+.find-screen__method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 25%;
+  height: 80px;
+  text-align: center;
+}
+
+.find-screen__method:nth-child(2) span {
+  transform: translateY(10px);
+}
+
+.find-screen__recommends {
+  padding: 15px 0;
+}
+
+.find-screen__recommends-contents {
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0.5;
+}
+
+.find-screen__open-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 0;
+}
+
+.find-screen__open-chat:last-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find-screen__chat-column:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-screen__chat-title {
+  font-size: 19px;
+}
+
+.find-screen__chat-hesi-tag {
+  opacity: 0.5;
+  margin: 10px 0;
+}
+
+.find-screen__chat-info {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.find-screen__chat-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.find-screen__chat-members {
+  opacity: 0.5;
+  padding: 0 7px;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.find-screen__chat-state {
+  color: #f06292;
+  padding-left: 7px;
+}
+
+.find-screen__chat-column:last-child {
+  position: relative;
+}
+
+.find-screen__chat-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.find-screen__chat-likes {
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 14px;
+}
