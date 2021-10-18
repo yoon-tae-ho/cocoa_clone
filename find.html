@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Find - Kokoa Clone</title>
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi fa-sm"></i>
+    </div>
+
+    <div class="status-bar__column">
+      <h4>18:43</h4>
+    </div>
+
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt fa-sm"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">Find</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span>
+        <div class="screen-header__notification"></div>
+        <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+      </span>
+    </div>
+  </header>
+
+  <main class="find-screen">
+    <section class="find-screen__methods">
+      <div class="find-screen__method">
+        <i class="fas fa-qrcode fa-2x"></i>
+        <span>QR Code</span>
+      </div>
+      <div class="find-screen__method">
+        <i class="far fa-address-book fa-2x"></i>
+        <span>Add by<br/>Contacts</span>
+      </div>
+      <div class="find-screen__method">
+        <i class="far fa-id-card fa-2x"></i>
+        <span>Add by ID</span>
+      </div>
+      <div class="find-screen__method">
+        <i class="far fa-envelope fa-2x"></i>
+        <span>Invite</span>
+      </div>
+    </section>
+
+    <section class="find-screen__recommends">
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <span class="channel-component__title">Recommended Friends</span>
+        </div>
+        <div class="channel-component__column">
+        </div>
+      </div>
+
+      <div class="find-screen__recommends-contents">
+        <span>You have no recommended friends.</span>
+      </div>
+    </section>
+
+    <section class="find-screen__open-chats">
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <span class="channel-component__title">Open Chat</span>
+        </div>
+        <div class="channel-component__column">
+          <span>Go to Openchat Home</span>
+          <i class="fas fa-chevron-right fa-sm"></i>
+        </div>
+      </div>
+
+      <div class="find-screen__open-chat">
+        <div class="find-screen__chat-column">
+          <h2 class="find-screen__chat-title">#BTS</h2>
+          <span class="find-screen__chat-hesi-tag">#BTS#ARMY#FRIENDS</span>
+          <div class="find-screen__chat-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzuCpZEbLcVPGqzgRBWEJnL0Do3Jmj7Yi7FQ&usqp=CAU" alt="" class="find-screen__chat-avatar">
+            <span class="find-screen__chat-members">802 members</span>
+            <span class="find-screen__chat-state">Active</span>
+          </div>
+        </div>
+        <div class="find-screen__chat-column">
+          <img src="https://returnofrock.com/ezoimgfmt/i.scdn.co/image/ab67616d0000b27329d00196831bec20ebbff5c7?ezimgfmt=rs:332x332/rscb1/ng:webp/ngcb1" alt="" class="find-screen__chat-image">
+          <div class="find-screen__chat-likes">
+            <i class="fas fa-heart fa-xs"></i>
+            <span class="find-screen__likes-num">326</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="find-screen__open-chat">
+        <div class="find-screen__chat-column">
+          <h2 class="find-screen__chat-title">Bts Gang~</h2>
+          <span class="find-screen__chat-hesi-tag">#englishonly #ipurpleyou #jimun #teata...</span>
+          <div class="find-screen__chat-info">
+            <img src="https://www.thesprucepets.com/thmb/BKNJkoyr-qyvfaYVRVCuEHNmOXU=/1155x1155/smart/filters:no_upscale()/Stocksy_txp14acff329Kw100_Medium_1360769-5aec7baefa6bcc00373c6cb7.jpg" alt="" class="find-screen__chat-avatar">
+            <span class="find-screen__chat-members">299 members</span>
+            <span class="find-screen__chat-state">Active</span>
+          </div>
+        </div>
+        <div class="find-screen__chat-column">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVQxbSfHVcgduSDK0PayM8u4c4tPzFWwCKig&usqp=CAU" alt="" class="find-screen__chat-image">
+          <div class="find-screen__chat-likes">
+            <i class="fas fa-heart fa-xs"></i>
+            <span class="find-screen__likes-num">215</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>  
+
+  <nav class="nav-bar">
+    <ul class="nav-bar__list">
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+      </li>
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="chats.html"><i class="far fa-comment fa-2x"></i></a>
+      </li>
+      <li class="nav-bar__btn">
+        <a class="nav-bar__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+      </li>
+      <li class="nav-bar__btn">
+        <div class="nav-bar__notification nav-bar__notification--sm"></div>
+        <a class="nav-bar__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+  <aside class="screen-cover">
+    <img src="https://d1fdloi71mui9q.cloudfront.net/yYgC6iEThaYBAbYhhmAR_P56DMJ6RGpNjA3XS" alt="" class="screen-cover__background">
+    <h1 class="screen-cover__title">Your screen is too biggg!!</h1>
+  </aside>
+</body>
+</html>
